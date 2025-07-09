@@ -3,8 +3,8 @@
 # Site settings
 title: "Death Clock - Legal"
 description: "Death Clock アプリの利用規約・プライバシーポリシー"
-url: "https://[username].github.io"
-baseurl: "/app030_death_clock/GitHub_Pages"
+url: "https://nowonmeet.github.io"
+baseurl: "/death_clock_legal/GitHub_Pages"
 
 # Theme
 theme: minima
