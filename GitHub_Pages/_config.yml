@@ -1,8 +1,8 @@
 # Jekyll Configuration for Death Clock Legal Pages
 
 # Site settings
-title: "Death Clock - Legal"
-description: "Death Clock アプリの利用規約・プライバシーポリシー"
+title: "寿命時計 - Legal"
+description: "寿命時計アプリの利用規約・プライバシーポリシー"
 url: "https://nowonmeet.github.io"
 baseurl: "/death_clock_legal/GitHub_Pages"
 
@@ -24,7 +24,7 @@ plugins:
   - jekyll-seo-tag
 
 # SEO settings
-author: "Death Clock Team"
+author: "寿命時計 Team"
 twitter:
   username: death_clock_app
   card: summary
@@ -75,7 +75,7 @@ timezone: Asia/Tokyo
 
 # Custom variables for Death Clock branding
 brand:
-  name: "Death Clock"
+  name: "寿命時計"
   tagline: "あなたの健康習慣から予測される寿命を知り、より良い未来へ"
   colors:
     primary: "#ff0000"
