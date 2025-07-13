@@ -154,6 +154,27 @@
             color: #ffffff;
         }
         
+        .language-switcher {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .lang-link {
+            color: #ffcc66;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 6px 12px;
+            border: 1px solid #ffcc6633;
+            border-radius: 6px;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+        
+        .lang-link:hover, .lang-link.active {
+            background: #ffcc6633;
+            color: #ffffff;
+        }
+        
         @media (max-width: 768px) {
             .container {
                 padding: 20px 15px;
@@ -167,7 +188,7 @@
                 padding: 20px;
             }
             
-            .nav-link {
+            .nav-link, .lang-link {
                 display: block;
                 margin: 10px auto;
                 max-width: 200px;
@@ -181,6 +202,11 @@
             <div class="logo">⚰️</div>
             <div class="app-title">寿命時計</div>
             <div class="subtitle">あなたの健康習慣から予測される寿命を知り、より良い未来へ</div>
+        </div>
+        
+        <div class="language-switcher">
+            <a href="terms-of-service.html" class="lang-link active">日本語</a>
+            <a href="en/terms-of-service.html" class="lang-link">English</a>
         </div>
         
         <div class="navigation">
